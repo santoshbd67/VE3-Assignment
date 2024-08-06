@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:851725419915:task-definition/web-app-task:3",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:471112889177:task-definition/web-app-task:1",
     "containerDefinitions": [
         {
             "name": "web-app",
-            "image": "851725419915.dkr.ecr.us-east-1.amazonaws.com/web-app",
+            "image": "471112889177.dkr.ecr.us-east-1.amazonaws.com/web-app",
             "cpu": 0,
             "portMappings": [
                 {
@@ -34,10 +34,9 @@
         }
     ],
     "family": "web-app-task",
-    "taskRoleArn": "arn:aws:iam::851725419915:role/ecsTaskExecutionRole",
-    "executionRoleArn": "arn:aws:iam::851725419915:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::471112889177:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 3,
+    "revision": 1,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -52,9 +51,6 @@
         },
         {
             "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
-        },
-        {
-            "name": "com.amazonaws.ecs.capability.task-iam-role"
         },
         {
             "name": "ecs.capability.execution-role-ecr-pull"
@@ -83,7 +79,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-08-06T07:32:35.583Z",
-    "registeredBy": "arn:aws:iam::851725419915:user/cloud_user",
+    "registeredAt": "2024-08-06T08:08:03.166Z",
+    "registeredBy": "arn:aws:iam::471112889177:user/cloud_user",
     "tags": []
 }
