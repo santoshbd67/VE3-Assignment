@@ -8,13 +8,12 @@ sudo ./aws/install -i /usr/local/aws-cli -b /usr/local/bin --update
 aws configure
 ```
 
-## Install Docker and Nginx
+## Install Docker
 ```
 sudo apt-get update
 sudo apt install docker.io
 docker ps
 sudo chown $USER /var/run/docker.sock
-sudo apt install nginx -y
 ```
 ## Create ECR Repo using UI
 ## Clone the repository build Docker image and pushed to ECR
