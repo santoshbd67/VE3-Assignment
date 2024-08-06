@@ -1,6 +1,6 @@
 ## Created EC2 instance using UI
 
-## Install docker on it
+## Install Docker
 ```
 sudo apt-get update
 sudo apt install docker.io
